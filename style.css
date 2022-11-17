@@ -1,0 +1,145 @@
+html { margin: 20px;
+    background-color: white;
+}
+
+body {
+    font-family: 'Quicksand', sans-serif;
+    background-color:#F6F9FE;
+    height: 100vh;
+    border-radius: 16px;
+}
+
+.cabecalho {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 3em 9em;
+}
+
+.menu, .navegacao{
+    display: flex;
+    gap: 20px;
+}
+
+.principal {
+    display: flex;
+    align-items: center;
+    padding: 3em 9em;
+    justify-content: space-between;
+}
+
+.ilustracao {
+    width: 20vw;
+}
+
+.textos {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    width: 40vw;
+}
+
+.rodape {
+    display: flex;
+    flex-direction: column;
+    gap: 1em;
+    padding: 0 9em;
+}
+
+.lista-icons {
+    display: flex;
+    gap: 15px;
+}
+
+.titulo {
+    font-size: 50px;
+    font-weight: 700;
+    color: #353252;
+    line-height: 1.3em;
+}
+
+.primeiro-paragrafo {
+    background-color: #372865;
+    padding: 1em;
+    color: white;
+    border-radius: 32px;
+    width: 28em;
+}
+
+.ancora-link {
+    color: white;
+
+}
+
+.segundo-paragrafo {
+    line-height: 1.3em;
+    color: #A5A6A9;
+    font-weight: 600;
+}
+
+.caixa-email {
+    font-family: 'Quicksand', sans-serif;
+    width: 15vw;
+    height: 3.5vh;
+    border: 1.5px solid rgba(151, 151, 151, 0.253);
+    border-radius: 5px;
+    
+}
+
+.caixa-email::placeholder {
+    padding-left: 1em;
+    color: rgba(0, 0, 0, 0.329);
+    font-weight: 600;
+}
+
+.caixa-email:focus {
+    outline-color: #372865;
+}
+
+.botao {
+    background-color: #372865;
+    height: 4vh;
+    width: 100px;
+    color: white;
+    border-radius: 5px;
+    border: none;
+    font-family: 'Quicksand', sans-serif;
+    cursor: pointer;
+}
+
+.botao:hover {
+    background-color: #372865cc;
+}
+
+.formulario {
+    display: flex;
+    align-items: center;
+    gap: 1em;
+}
+
+.navegacao {
+    display: flex;
+    align-items: center;
+}
+
+.ancoras-navegacao {
+    text-decoration: none;
+    color: #A5A6A9;
+    font-weight: 600;
+}
+
+.paragrafo-footer {
+    color: #5B5B5B;
+    font-weight: 700;
+}
+
+.ancora-logos:hover {
+    -moz-transform: scale(1.1);
+    -webkit-transform: scale(1.1);
+    transform: scale(1.1);
+}
+
+.ancoras-navegacao:hover{
+    color: #372865;
+}
+
